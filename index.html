@@ -128,3 +128,34 @@
     </footer>
 </body>
 </html>
+
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career Finder Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Find Your Perfect Career!</h1>
+        
+        <div id="quiz-section">
+            <div id="question-1" class="question">
+                <h3>Question 1: I prefer working...</h3>
+                <button onclick="answerQuestion(1, 'people')">Mostly with people</button>
+                <button onclick="answerQuestion(1, 'alone')">Mostly alone</button>
+                <button onclick="answerQuestion(1, 'both')">Both equally</button>
+            </div>
+        </div>
+        
+        <div id="results-section" style="display: none;">
+            <h2>Your Career Suggestions:</h2>
+            <div id="career-results"></div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
